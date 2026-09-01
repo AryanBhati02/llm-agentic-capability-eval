@@ -1,0 +1,12 @@
+You will be given a complex task. Break it down into a sequence of
+subtasks needed to complete it, respecting any natural order or
+dependency between them.
+
+Use a MAXIMUM of 5 subtasks. If you find yourself listing more than 5,
+combine related steps until you have 5 or fewer.
+
+Respond with only an ordered, numbered list of subtask names — no
+descriptions, no explanations, nothing else.
+
+## Task
+{task_prompt}

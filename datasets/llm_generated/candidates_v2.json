@@ -1,0 +1,632 @@
+[
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_001",
+    "instruction": "Build a Python script that turns a messy raw sales CSV into a monthly revenue summary automatically emailed to the sales team every week.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_002",
+    "instruction": "Write a web scraper that fetches product listings from an e-commerce site, deduplicates results, stores them in a SQLite database, and exposes a CLI to query by category and price range.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_003",
+    "instruction": "Set up an automated CI/CD pipeline so that every pull request is fully validated and, if it passes, automatically deployed to staging with no manual steps.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_004",
+    "instruction": "Build a REST API endpoint that lets a user upload a PDF and get back a ranked list of its most frequently used keywords.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_005",
+    "instruction": "Write a script that pulls commit history from a GitHub repository via its API, filters commits by author and date range, and generates a Markdown changelog grouped by week.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_006",
+    "instruction": "Build a tool that watches an application's log directory and pings the team on Slack the moment any single type of error starts happening too often.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_007",
+    "instruction": "Implement a data pipeline that fetches weather data from a public API for a list of cities, stores daily snapshots in a relational database, and generates a weekly trend plot as a PNG.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_008",
+    "instruction": "Create a script that takes a raw, unvalidated JSON dataset of addresses and produces a clean, geocoded, analysis-ready dataset partitioned for efficient querying.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_009",
+    "instruction": "Write a command-line tool that accepts a Git repository URL, clones it locally, runs static analysis (flake8 + mypy), and produces a structured HTML report of all issues found.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_010",
+    "instruction": "Develop a batch script that takes a bucket full of full-size images and produces a web-optimized WebP version of the entire set in a separate location, with a record of what was processed.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_011",
+    "instruction": "Build a Telegram bot that accepts a user's location, queries a restaurant API for nearby options, ranks them by rating, and replies with a formatted top-5 list with links.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_012",
+    "instruction": "Write a script that connects to a PostgreSQL database, identifies tables without primary keys, generates ALTER TABLE statements to add them, and optionally executes the migration after user confirmation.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_013",
+    "instruction": "Create an automated report generator that reads sales records from an Excel file, computes per-product profit margins, identifies top and bottom performers, and outputs a PowerPoint presentation.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_014",
+    "instruction": "Build a data deduplication pipeline that reads two customer CSV files from different CRM exports, matches records by name and email fuzzy matching, and outputs a merged canonical list with conflict flags.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_coding_015",
+    "instruction": "Write a script that scrapes a job board for listings matching a given keyword, extracts title, company, salary, and location, and inserts new listings into a database while skipping already-seen ones.",
+    "reference": {},
+    "category": "coding",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_001",
+    "instruction": "Estimate the total cost of tiling a rectangular room given its dimensions, the tile size, the price per tile, and a 10% waste allowance for cuts.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "low",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_002",
+    "instruction": "A retailer offers a 15% discount on orders over $200 and charges 8% sales tax on the discounted price. Calculate the final amount paid for an order of 7 items priced at $34.99 each.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "low",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_003",
+    "instruction": "A train leaves City A at 9:15 AM traveling at 110 km/h. A second train departs City B (430 km away) at 10:00 AM traveling toward City A at 90 km/h. Determine when and where they meet.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_004",
+    "instruction": "A company has a loan of $250,000 at 6.5% annual interest compounded monthly over 20 years. Calculate the monthly payment, total amount paid, and total interest paid.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_005",
+    "instruction": "An investment portfolio consists of three assets with weights 50%, 30%, and 20%, annual returns of 8%, 5%, and 12%, and annual standard deviations of 15%, 8%, and 20%. Estimate the portfolio's expected return and variance assuming zero correlation between assets.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_006",
+    "instruction": "A cylindrical water tank has a diameter of 4 meters and a height of 6 meters. Water flows in at 2 liters per second and drains at 0.8 liters per second. How long until the tank is 75% full, starting from empty?",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_007",
+    "instruction": "A student scored 72, 85, 91, 68, and 79 on five exams. The final exam is worth twice the weight of each other exam. What minimum score is needed on the final exam to achieve an overall weighted average of 80?",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_008",
+    "instruction": "A car depreciates at 18% per year for the first three years, then at 10% per year thereafter. If the car originally costs $32,000, what is its value after 7 years, and how much value was lost in each period?",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_009",
+    "instruction": "Calculate the break-even point in units for a product with a fixed cost of $45,000 per month, a variable cost of $12 per unit, and a selling price of $28 per unit. Then determine the profit at 4,000 and 6,000 units.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_010",
+    "instruction": "A rectangular field is enclosed by a fence on three sides, with a wall forming the fourth side. If 120 meters of fencing is available, find the dimensions that maximize the enclosed area and state that maximum area.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_011",
+    "instruction": "A logistics company charges $3 per kg for the first 10 kg and $1.80 per kg after that, with a 5% surcharge on orders totaling over $50. Calculate the total shipping cost for packages of 8 kg, 15 kg, and 25 kg.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "low",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_012",
+    "instruction": "Compare the final balance after 10 years for $10,000 invested at 7% interest compounded annually, semi-annually, and monthly. Show all intermediate values and compute the effective annual rate for each compounding frequency.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_013",
+    "instruction": "A survey of 500 respondents shows 60% prefer product A, with a margin of error claimed to be plus or minus 3%. Verify whether this margin of error is correct at a 95% confidence level and, if not, compute the actual margin.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_014",
+    "instruction": "A recipe serves 4 people and requires 350g flour, 2 eggs, 180ml milk, and 80g butter. Scale it to serve 11 people, then calculate the total calorie count given the nutritional values per 100g of each ingredient.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "low",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_mathematics_015",
+    "instruction": "Convert 25 degrees Celsius to Fahrenheit, then calculate how much energy in joules is required to heat 2.5 kg of water from that temperature to boiling point, then express the result in kilowatt-hours and state how long a 1.5 kW kettle would take.",
+    "reference": {},
+    "category": "mathematics",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_001",
+    "instruction": "Five people (Alice, Bob, Carol, Dan, Eve) each own exactly one pet (cat, dog, fish, parrot, rabbit). Use the given clues to determine who owns which pet: Alice does not own the dog or cat; Bob's pet is not the fish; Carol owns the parrot; Dan's pet requires a cage; Eve's pet is not the rabbit.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_002",
+    "instruction": "A library has 6 books (P, Q, R, S, T, U) to be arranged on 3 shelves (top, middle, bottom) with exactly 2 books each. Constraints: P and Q cannot share a shelf; R must be above S; T must be on the same shelf as U; Q cannot be on the bottom shelf. List all valid arrangements.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_003",
+    "instruction": "Four friends are planning a road trip. Alex cannot drive unless Beth goes first; Beth will not go unless Carol confirms; Carol will confirm if and only if Dan has booked accommodation; Dan books accommodation only if the trip is on a weekend. Today is Friday. Determine the minimal conditions needed for Alex to drive.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_004",
+    "instruction": "A company's security system requires any two of three keys (A, B, C) to open a vault. Key A is held by the Manager, Key B by the Auditor, and Key C by the Director. If the Manager is absent and the Auditor is on leave, determine who can open the vault and what the minimum configuration is.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_005",
+    "instruction": "Using only a 3-litre jug and a 5-litre jug with no markings, measure exactly 4 litres of water from an unlimited source. Show all steps including pour direction and quantities at each step.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_006",
+    "instruction": "Eight athletes run a race. We know: runner 3 finished before runner 7; runner 5 finished last; runner 1 finished immediately after runner 6; runner 4 finished before runner 2 but after runner 8; runner 6 did not finish first. Determine the complete finishing order.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_007",
+    "instruction": "A detective has three suspects (Xavier, Yasmin, Zara) for a theft. Exactly one person is guilty. Xavier says 'I didn't do it.' Yasmin says 'Xavier is lying.' Zara says 'Yasmin is lying.' If exactly one person is telling the truth, determine who is guilty and who is telling the truth.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_008",
+    "instruction": "Five tasks (1-5) must be completed before a deadline. Task 3 must precede Task 1; Task 2 must precede Task 4; Task 5 must come last; Tasks 2 and 3 can be done in parallel; Task 1 must precede Task 4. Find all valid orderings and identify the critical path.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_009",
+    "instruction": "In a 4x4 grid puzzle, each row and column must contain the digits 1 through 4 exactly once. Given the partial fill: Row 1: [_, 3, _, 1]; Row 2: [2, _, 4, _]; Row 3: [_, _, 2, _]; Row 4: [4, 1, _, _]. Solve it step by step, explaining the deduction at each step.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_010",
+    "instruction": "Three boxes are labelled 'Apples', 'Oranges', and 'Mixed'. All three labels are wrong. You may draw one fruit from one box. Determine which strategy guarantees you can correctly re-label all three boxes and explain the logical chain.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_011",
+    "instruction": "A company's hiring policy states: candidates need a degree OR 5 or more years of experience; candidates with a criminal record are disqualified unless they have a reference letter; all senior roles require a degree. Evaluate this applicant: 3 years experience, no degree, no criminal record, applying for a senior role.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_012",
+    "instruction": "A train network has 6 stations (A through F). Given a connection matrix, determine: (1) which stations can be reached from A without changing trains, (2) the minimum number of changes to reach F from A, and (3) whether removing connection B-D would disconnect the network.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_013",
+    "instruction": "Four friends each ate a different number of slices of pizza (1, 2, 3, or 4). Clues: the person who ate 3 slices is not Adam; Beth ate more than Carlos; Dave ate fewer slices than Beth; Adam did not eat the fewest. Determine who ate how many slices.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_014",
+    "instruction": "A product can only be released if it passes QA, legal review, and security audit. QA passes only if both unit and integration tests pass. Legal passes only if compliance docs are complete. Security passes if no critical vulnerabilities exist OR a compensating control is approved. Given: unit tests pass, integration tests fail, compliance docs complete, 2 critical vulnerabilities, no compensating control. Trace the release decision.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "high",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  },
+  {
+    "source": "llm_generated",
+    "original_id": "llm_logical_reasoning_015",
+    "instruction": "A farmer must transport a fox, a chicken, and a bag of grain across a river. The boat holds only the farmer and one item. The fox will eat the chicken if left alone together; the chicken will eat the grain if left alone together. Find the minimum number of crossings and the sequence of moves.",
+    "reference": {},
+    "category": "logical_reasoning",
+    "difficulty": "medium",
+    "metadata": {
+      "source_file": "llm_generated/candidates_v2.json",
+      "environment": "llm_generated",
+      "dataset_license": "N/A",
+      "dataset_citation": "LLM-generated for Task Decomposition v2"
+    }
+  }
+]

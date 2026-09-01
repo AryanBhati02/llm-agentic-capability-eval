@@ -1,0 +1,22 @@
+[
+  {"name": "get_weather", "parameters": ["location", "date"]},
+  {"name": "convert_currency", "parameters": ["amount", "from_currency", "to_currency"]},
+  {"name": "convert_units", "parameters": ["value", "from_unit", "to_unit"]},
+  {"name": "calculate", "parameters": ["expression"]},
+  {"name": "translate_text", "parameters": ["text", "target_language"]},
+  {"name": "set_reminder", "parameters": ["message", "datetime"]},
+  {"name": "search_movie", "parameters": ["title"]},
+  {"name": "get_stock_price", "parameters": ["ticker_symbol"]},
+  {"name": "search_recipe", "parameters": ["dish_name"]},
+  {"name": "get_flight_status", "parameters": ["flight_number"]},
+  {"name": "search_restaurant", "parameters": ["cuisine", "location"]},
+  {"name": "get_directions", "parameters": ["origin", "destination"]},
+  {"name": "send_email", "parameters": ["recipient", "subject", "body"]},
+  {"name": "get_news", "parameters": ["topic"]},
+  {"name": "define_word", "parameters": ["word"]},
+  {"name": "get_time_in_timezone", "parameters": ["timezone"]},
+  {"name": "search_hotel", "parameters": ["location", "check_in_date"]},
+  {"name": "generate_qr_code", "parameters": ["text"]},
+  {"name": "summarize_text", "parameters": ["text"]},
+  {"name": "detect_language", "parameters": ["text"]}
+]

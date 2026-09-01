@@ -1,0 +1,29 @@
+You are an expert at composing tool-based pipelines for task automation.
+
+Given a task and a catalogue of available tools, select the tools needed to complete the task and express them as a JSON tool graph. Use ONLY tools from the Available Tools list below.
+
+## Task
+{task_prompt}
+
+## Available Tools
+{tool_pool_json}
+
+## Instructions
+
+1. Choose only the tools from the Available Tools list that are necessary to complete the task. You may use a tool more than once if needed.
+2. Assign each tool invocation a unique "step_id" (string integers: "1", "2", "3", …).
+3. For each tool, fill in its "parameters" with the argument names and values you would pass. If a tool has no known parameters, use an empty object {}.
+4. Express data-flow dependencies in "dependencies": each object has "from" and "to" keys referring to step_ids, meaning the output of the "from" step is required as input to the "to" step. If there are no dependencies, use an empty list.
+
+## Required Output Format
+
+Respond with ONLY the following JSON object — no preamble, no commentary, no markdown fences:
+{
+  "tools": [
+    {"step_id": "1", "tool": "<tool name from Available Tools>", "parameters": {"<param_name>": "<value>"}},
+    {"step_id": "2", "tool": "<tool name>", "parameters": {}}
+  ],
+  "dependencies": [
+    {"from": "1", "to": "2"}
+  ]
+}

@@ -1,0 +1,102 @@
+models:
+  llama3.2-3b:
+    provider: ollama
+    model_id: "llama3.2:3b"
+    max_tokens: 2048
+    timeout_seconds: 120
+    api_key_env: null
+    concurrency_limit: 2
+
+  phi3.5:
+    provider: ollama
+    model_id: "phi3.5"
+    max_tokens: 2048
+    timeout_seconds: 120
+    api_key_env: null
+    concurrency_limit: 2
+
+  qwen2.5-3b:
+    provider: ollama
+    model_id: "qwen2.5:3b"
+    max_tokens: 2048
+    timeout_seconds: 120
+    api_key_env: null
+    concurrency_limit: 2
+
+  gemma2-2b:
+    provider: ollama
+    model_id: "gemma2:2b"
+    max_tokens: 2048
+    timeout_seconds: 120
+    api_key_env: null
+    concurrency_limit: 2
+
+  gpt-5.4-mini:
+    provider: azure
+    model_id: "gpt-5.4-mini"
+    max_tokens: 4096
+    timeout_seconds: 60
+    api_key_env: AZURE_OPENAI_API_KEY
+    concurrency_limit: 5
+
+  gemini-2.5-pro:
+    provider: google
+    model_id: "gemini-2.5-pro"
+    max_tokens: 4096
+    timeout_seconds: 60
+    api_key_env: GOOGLE_AI_STUDIO_API_KEY
+    concurrency_limit: 2
+
+  gemini-2.5-flash:
+    provider: google
+    model_id: "gemini-2.5-flash"
+    max_tokens: 4096
+    timeout_seconds: 60
+    api_key_env: GOOGLE_AI_STUDIO_API_KEY
+    concurrency_limit: 10
+
+  claude-opus:
+    provider: anthropic
+    model_id: "claude-opus-4-8"
+    max_tokens: 4096
+    timeout_seconds: 90
+    api_key_env: ANTHROPIC_API_KEY
+    concurrency_limit: 3
+
+  deepseek-r1:
+    provider: openrouter
+    model_id: "deepseek/deepseek-r1"
+    max_tokens: 4096
+    timeout_seconds: 90
+    api_key_env: OPENROUTER_API_KEY
+    concurrency_limit: 5
+
+  llama-4-maverick:
+    provider: openrouter
+    model_id: "meta-llama/llama-4-maverick"
+    max_tokens: 4096
+    timeout_seconds: 90
+    api_key_env: OPENROUTER_API_KEY
+    concurrency_limit: 5
+
+  qwen3-235b:
+    provider: openrouter
+    model_id: "qwen/qwen3-235b-a22b"
+    max_tokens: 4096
+    timeout_seconds: 90
+    api_key_env: OPENROUTER_API_KEY
+    concurrency_limit: 5
+
+  mistral-large:
+    provider: openrouter
+    model_id: "mistralai/mistral-large"
+    max_tokens: 4096
+    timeout_seconds: 90
+    api_key_env: OPENROUTER_API_KEY
+    concurrency_limit: 5
+
+pilot_models:
+  - llama3.2-3b
+  - phi3.5
+  - qwen2.5-3b
+  - gemma2-2b

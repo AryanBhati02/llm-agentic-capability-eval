@@ -1,0 +1,17 @@
+{
+  "total_curated": 24,
+  "n_per_category_target": 12,
+  "similarity_threshold": 0.92,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "random_seed": 42,
+  "category_counts": {
+    "general_reasoning": 12,
+    "planning": 12
+  },
+  "difficulty_counts": {
+    "low": 24
+  },
+  "dataset_counts": {
+    "TaskBench": 24
+  }
+}

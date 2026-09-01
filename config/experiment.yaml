@@ -1,0 +1,13 @@
+temperature: 0.2
+top_p: 1.0
+
+retry_count: 3
+retry_backoff_base: 2.0
+
+dry_run: false
+pilot_mode: false
+randomize_order: true
+random_seed: 42
+
+output_dir: "outputs/responses"
+pilot_output_dir: "outputs/_pilot"

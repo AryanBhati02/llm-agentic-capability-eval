@@ -1,0 +1,35 @@
+judge_provider: azure
+judge_model: "gpt-5.4-mini"
+judge_max_tokens: 1024
+judge_timeout_seconds: 60
+judge_api_key_env: AZURE_OPENAI_API_KEY
+judge_concurrency_limit: 5
+
+criteria:
+  - name: completeness
+    description: "Does the decomposition cover all necessary sub-tasks?"
+    anchor_low: "Misses most required steps"
+    anchor_high: "Covers every required step with no gaps"
+
+  - name: logical_ordering
+    description: "Are steps in a feasible execution order with correct dependencies?"
+    anchor_low: "Steps are in an incoherent or infeasible order"
+    anchor_high: "Optimal sequencing with clear dependency flow"
+
+  - name: correctness
+    description: "Are individual steps correct, actionable, and feasible?"
+    anchor_low: "Steps are wrong, vague, or impossible to execute"
+    anchor_high: "All steps are correct and directly actionable"
+
+  - name: granularity
+    description: "Are steps at an appropriate level of detail — neither too vague nor too atomic?"
+    anchor_low: "Steps are either uselessly vague or excessively micro-detailed"
+    anchor_high: "Well-calibrated detail level for the task complexity"
+
+scale_min: 1
+scale_max: 5
+
+anonymization_seed: 7
+
+judgments_dir: "outputs/judgments"
+anonymization_map_path: "outputs/anonymization_map.json"

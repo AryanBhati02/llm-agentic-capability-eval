@@ -1,0 +1,23 @@
+{
+  "total_curated": 65,
+  "n_per_category_target": 13,
+  "similarity_threshold": 0.92,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "random_seed": 42,
+  "category_counts": {
+    "coding": 13,
+    "general_reasoning": 13,
+    "logical_reasoning": 13,
+    "mathematics": 13,
+    "planning": 13
+  },
+  "difficulty_counts": {
+    "high": 11,
+    "low": 30,
+    "medium": 24
+  },
+  "dataset_counts": {
+    "AgentBench": 39,
+    "TaskBench": 26
+  }
+}

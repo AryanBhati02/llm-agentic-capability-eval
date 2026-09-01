@@ -1,0 +1,134 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# --- Testing & Code Quality (pytest, ruff, mypy, coverage) ---
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# --- IDE & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+.cursor/
+.antigravity/
+
+# --- Operating System ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# --- Jupyter Notebooks & Data Science ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# --- Raw Benchmark Datasets & Temporary Clones ---
+# Downloaded by scripts/download_datasets.py
+datasets/taskbench/
+datasets/agentbench/
+datasets/_tmp_jarvis/
+
+# Preserve curated, structured, and generated prompt datasets:
+!datasets/curated/
+!datasets/function_calling/
+!datasets/llm_generated/
+
+# --- Logs & Runtime Output ---
+logs/*.log
+!logs/.gitkeep
+
+# --- Temporary & Atomic Files ---
+# Atomic JSON writes use *.tmp before renaming
+*.tmp
+*.bak
+*.lock
+
+# --- Experiment Output---
+outputs/_pilot/
+outputs/_pilot_v2/
+outputs/_pilot_tool_calls/
+outputs/_pilot_function_calls/
+outputs/responses/
+outputs/judgments/
+outputs/judgments_v2/
+outputs/tool_calls/
+outputs/function_calls/
+metrics/plots/
